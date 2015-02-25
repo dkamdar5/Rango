@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Rango says hey there world! <br/> <a href='/rango/about'>About</a>")
+    return HttpResponse("Welcome to the Homepage! <br/> <a href='/rango/about'>Go To About Page</a>")
 
 def about(request):
-    return HttpResponse("Rango says here is the about page. <br/> <a href='/rango/'>Index</a>")
+    return HttpResponse("Just bored. Keeping Busy. <br/> <a href='/rango/'>Back To Homepage</a>")
